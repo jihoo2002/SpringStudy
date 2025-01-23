@@ -1,11 +1,8 @@
 package helllo.core.order;
 
 import helllo.core.discount.DiscountPolicy;
-import helllo.core.discount.FixDiscountPolicy;
-import helllo.core.discount.RateDiscountPolicy;
 import helllo.core.member.Member;
 import helllo.core.member.MemberRepository;
-import helllo.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService {
 
